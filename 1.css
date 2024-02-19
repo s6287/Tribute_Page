@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    /* background-color: #212121; */
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 68, 0, 0.852);
+    box-shadow: 2px 2px 18px 1px rgba(112, 131, 112, 0.632);
+    z-index: 999;
+    
+   
+}
+
+.title{
+   text-align: center;
+   padding: 100px;
+   
+   
+
+}
+
+.title h1{
+    color: rgba(23, 103, 177, 0.786);
+}
+
+
+
+
+
+.header{
+    background-image: url(./okkk.jpg);
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.title img{
+    height: 500px;
+    width: 250px;
+    /* border-radius: 50%; */
+    padding-top: 40px;
+}
+
+.title .quote {
+    display: flex;
+    border: 7px solid;
+    
+    border-radius: 50px 20px;
+    
+}
+
+ .nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav .menu a:hover{
+    background-color: rgba(128, 128, 128, 0.864);
+   
+    
+}
+
+.content{
+   display: flex;
+   padding-top: 20px;
+   align-items: center;
+   /* border: 2px solid; */
+   justify-content: center;
+}
+
+.captain{
+    /* border: 2px solid blue; */
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.img img{
+    height: 200px;
+    width: 150px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+    
+.legacy{
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.btn{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   padding-top: 20px;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn1{
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn1:hover{
+    border-radius: 15px;
+    
+}
+
+.a{
+    background-color: grey;
+}
+
+.b{
+    background-color: red;
+}
+
+.c{
+    background-color: orange;
+}
+
+.qt1{
+    border: 2px solid;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.award{
+   display: flex;
+   /* border: 2px solid; */
+   justify-content: center;
+   gap: 10px;
+   padding: 40px;
+}
+
+.icon{
+    font-size: 50px;
+}
+
+.text h3{
+    font-size: 40px;
+}
+
+.x img{
+   border: 2px solid;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+
+.container img {
+    width: 200px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    
+}
+
+.img11,.img12,.img13{
+    border: 5px solid gray;
+    padding: 5px;
+   
+    
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  .social-icons:hover{
+    color: blue;
+  }
+
+  @media only screen and (max-width: 768px) {
+   .nav{
+    width: 0;
+    gap:20px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+   }
+
+   div#home {
+    width: 150%;
+}
+
+.title .quote {
+    border-radius: 0;
+    
+}
+
+.content , .l{
+    flex-direction: column;
+    width: 150%;
+}
+
+.captain,.legacy{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    font-size: 20px;
+
+}
+
+.img img{
+    height: 400px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 150%;
+    margin-top: 10px;
+}
+
+.qt1{
+    width: 150%;
+
+}
+
+.container{
+    flex-direction: column;
+    width: 150%;
+
+}
+
+.award{
+    width: 150%;
+}
+
+.img11,.img12,.img13{
+    border: 0;
+    height: 200px;
+}
+
+.footer{
+    display: none;
+}
+    
+  }
+
+  
